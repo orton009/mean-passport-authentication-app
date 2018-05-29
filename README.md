@@ -20,7 +20,8 @@
  This app consists of basic login authentication system. The user values are hardcoded in the backend (no database is used).
  The user authentication session is maintained through passport js and JWT tokens on the front end.
  Both the server and client are running on the same port. Just download the project and run following commands : 
- > npm install
+ > npm install 
+ 
  > npm start 
  
  and server will start running on port 3000.
