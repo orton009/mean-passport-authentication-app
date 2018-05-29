@@ -1,0 +1,22 @@
+{
+  "name": "asgn_web",
+  "version": "1.0.0",
+  "description": "Simple login authentication app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1" ,
+    "start" : "node server"
+  },
+  "dependencies" : {
+    "express" : "*" ,
+    "bcryptjs" : "*" ,
+    "cors" : "*" ,
+    "passport" : "*" ,
+    "passport-jwt" : "*" ,
+    "body-parser" : "*" ,
+    "jsonwebtoken" : "*" 
+
+  } ,
+  "author": "\"Drupad Singh\"",
+  "license": "ISC"
+}
